@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- coloco bootstrap
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+
+    <!-- coloco estilo css
+    <link rel="stylesheet" href="../styles/styles.css"> -->
+
+    <title>NO GRAVITY - Productos</title>
+</head>
+
+<body>
+
+    <header class="Encabezado">
+        <h1 class="Encabezado__Nombre"> NO GRAVITY </h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light jc-center">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse jc-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 jc-barra" aria-hidden="true"></i>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="empresa.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ejercicios.html">Ejercicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nutricion.html">Nutricion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acceso.html">Acceso</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid cen">
+        <div class="container">
+            <h1 class="display-4">TODO LO QUE NECESITAS EN UN SOLO LUGAR!</h1>
+        </div>
+        <hr class="my-4">
+    </div>
+
+    <form class="Buscador" action="post">
+        <input class="Buscador__Campo" type="search" placeholder="Busca aqui tu producto" name="buscar" id="buscar">
+        <input class="Buscador__Boton" type="submit" value="Buscar">
+    </form>
+   <!-- falta hacer responsive el sidebar, con collapse-->
+<div class="Contenedor">
+    <aside class="col-md-4   lateral">
+        <h6 class="text-uppercase font-weight-bold mb-3">MARCA</h6>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-1">
+                <label for="category-1">SONNOS</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-2">
+                <label for="category-2">POWER</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-3">
+                <label for="category-3">WHITE PROTEIN</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-4">
+                <label for="category-4">GRAND MARC</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-5">
+                <label for="category-5">ADIDAS</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-6">
+                <label for="category-6">POWER-LIFT</label>
+            </div>
+        </div>
+
+        <div class="divider mt-2 mb-2 border-bottom border-secondary"></div>
+        <h6 class="text-uppercase mt-2 mb-3 font-weight-bold">PRECIO</h6>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="filter-size-1">
+                <label for="filter-size-1"> Hasta $500</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="filter-size-2">
+                <label for="filter-size-2">Desde $500 hasta $1.500</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="filter-size-3">
+                <label for="filter-size-3">Desde $1.500 hasta $5.000</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="filter-size-4">
+                <label for="filter-size-4">Mas de $10.000</label>
+            </div>
+        </div>
+
+        <div class="divider mt-2 mb-2 border-bottom border-secondary"></div>
+        <h6 class="text-uppercase mt-2 mb-3 font-weight-bold">FINANCIACION</h6>
+
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-4">
+                <label for="category-4">3 cuotas</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-5">
+                <label for="category-5">6 cuotas</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-6">
+                <label for="category-6">12 cuotas</label>
+            </div>
+        </div>
+        <div class="divider mt-2 mb-2 border-bottom border-secondary"></div>
+        <h6 class="text-uppercase mt-2 mb-3 font-weight-bold">UBICACION</h6>
+
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-4">
+                <label for="category-4">C.a.b.a</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-5">
+                <label for="category-5">G.c.b.a</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-6">
+                <label for="category-6">Cordoba</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-4">
+                <label for="category-4">Santa Fe</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-5">
+                <label for="category-5">Entre Rios</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-6">
+                <label for="category-6">Corrientes</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-5">
+                <label for="category-5">La Pampa</label>
+            </div>
+        </div>
+        <div class="mt-2 mb-2 pl-2">
+            <div class="">
+                <input type="checkbox" class="custom-control-input" id="category-6">
+                <label for="category-6">Mendoza</label>
+            </div>
+        </div>
+    </aside>
+
+
+    <main class="Principal--Modificacion">
+
+        <section class="Principal__Secciones">
+            <h2 class="Secciones__Titulo"> INDUMENTARIA </h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                <article class="col">
+                    <div class="card">
+                        <img src="../img/productos/conjuntoss.jpg" class="card-img-top" alt="Conjunto">
+                        <div class="card-body">
+                            <h5 class="card-title">CONJUNTOS</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="col">
+                    <div class="card">
+                        <img src="../img/productos/remera-modi.jpg" class="card-img-top" alt="Remeras y musculosa">
+                        <div class="card-body">
+                            <h5 class="card-title">REMERAS Y MUSCULOSA</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="col">
+                    <div class="card">
+                        <img src="../img/productos/zapatillas.png" class="card-img-top" alt="Zapatillas">
+                        <div class="card-body">
+                            <h5 class="card-title">RUNNING</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="col">
+                    <div class="card">
+                        <img src="../img/indumentaria-guantes.png" class="card-img-top" alt="Par de Guantes">
+                        <div class="card-body">
+                            <h5 class="card-title">GUANTES</h5>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="Principal__Secciones--Modificacion">
+            <h2 class="Secciones__Titulo"> EJERCICIO </h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                <article class="col">
+                    <div class="card">
+                        <img src="../img/productos/barrass.jpg" class="card-img-top" alt="Conjunto">
+                        <div class="card-body">
+                            <h5 class="card-title">BARRAS CROMADAS</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="col">
+                    <div class="card">
+                        <img src="../img/productos/discoss.jpg" class="card-img-top" alt="Discos para barras de banco">
+                        <div class="card-body">
+                            <h5 class="card-title">DISCOS</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="col">
+                    <div class="card">
+                        <img src="../img/productos/mancuernass.jpg" class="card-img-top" alt="Mancuernas de arena">
+                        <div class="card-body">
+                            <h5 class="card-title">MANCUERNAS</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="col">
+                    <div class="card">
+                        <img src="../img/bandas-elasticas.png" class="card-img-top" alt="Bandas Elasticas">
+                        <div class="card-body">
+                            <h5 class="card-title"> BANDAS </h5>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="Principal__Secciones">
+            <h2 class="Secciones__Titulo"> SUPLEMENTOS </h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                <article class="col">
+                    <div class="card">
+                        <img src="../img/productos/AMINOACIDOS.jpg" class="card-img-top" alt="Conjunto">
+                        <div class="card-body">
+                            <h5 class="card-title">AMINOACIDOS</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="col">
+                    <div class="card">
+                        <img src="../img/productos/ANIMALS.jpg" class="card-img-top" alt="Pack de nutrientes">
+                        <div class="card-body">
+                            <h5 class="card-title">ANIMAL PACKS</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="col">
+                    <div class="card">
+                        <img src="../img/productos/suplementos.jpg" class="card-img-top" alt="Suplementos deportivos">
+                        <div class="card-body">
+                            <h5 class="card-title">SUPLEMENTOS</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="col">
+                    <div class="card">
+                        <img src="../img/Batidos.png" class="card-img-top" alt="Batidos">
+                        <div class="card-body">
+                            <h5 class="card-title"> BATIDOS </h5>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+</div>    
+    <footer class="Pie">
+        <div class="Pie__Contenedor">
+            <img class="Pie__Logo" src="../img/Logo-empresa-3.png" alt="Logo No Gravity">
+            <div class="Pie__Item">
+                <div>EMPRESA</div>
+                <div>SOCIAL</div>
+                <div>LEGAL</div>
+                <div>CONTACTO</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- agrego el javascript-->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

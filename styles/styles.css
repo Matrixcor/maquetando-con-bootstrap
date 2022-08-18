@@ -1,0 +1,80 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+.Encabezado{
+    background-color: black;
+    text-align: center;
+}
+.Encabezado__Nombre{
+    color: aliceblue;
+}
+.jc-barra{
+    margin: auto;
+}
+.cen{
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+.Container__Fondo{
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+.Buscador{
+    justify-content: center;
+    padding: 10px;
+}
+.Contenedor{
+    display: flex;
+    justify-content: center;
+}
+.lateral{
+    width: 13vw;
+    background-color: #E8E8E8;
+    text-align: left;
+}
+.Principal{
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+.Principal--Modificacion{
+    width: 77vw;
+    padding-left: 1vw;
+    text-align: center;
+}
+.Principal__Secciones{
+    background-color: #E8E8E8;
+}
+.Principal__Secciones--Modificacion{
+    background-color: #BBBFCA;
+}
+.Secciones__Titulo{
+    padding: 5px;
+}
+.Principal__Acceso{
+    display: flex;
+    justify-content: center;
+}
+.Principal__Texto{
+    text-align: justify;
+}
+.Pie{
+    background-color: #F4F4F2;
+    justify-items: center;
+}
+.Pie__Contenedor{
+    width: 90vw;
+    height: 90px;
+    display: flex;
+    margin: 10px auto;
+}
